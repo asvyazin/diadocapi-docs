@@ -17,6 +17,7 @@ HTTP-интерфейс
    http/GenerateInvoiceDocumentReceiptXml
    http/GetInvoiceCorrectionRequestInfo
    http/ParseInvoiceXml
+   http/ParseInvoiceCorrectionRequestXml
 
 Структуры данных
 ----------------

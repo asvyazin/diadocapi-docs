@@ -15,6 +15,7 @@
    http/utd/GenerateUniversalTransferDocumentXmlForSeller
    http/utd/GenerateUniversalTransferDocumentXmlForBuyer
    http/GenerateInvoiceDocumentReceiptXml
+   http/GenerateInvoiceCorrectionRequestXml
 
 Отправка УПД
 ------------
@@ -43,6 +44,7 @@
    http/utd/ParseUniversalTransferDocumentBuyerTitleXml
    http/utd/ParseUniversalCorrectionDocumentSellerTitleXml
    http/utd/ParseUniversalCorrectionDocumentBuyerTitleXml
+   http/ParseInvoiceCorrectionRequestXml
 
 Структуры данных
 ----------------
@@ -56,3 +58,4 @@
    proto/utd/*
    proto/PrepareDocumentsToSignRequest
    proto/PrepareDocumentsToSignResponse
+   proto/InvoiceCorrectionRequestInfo
